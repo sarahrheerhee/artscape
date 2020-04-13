@@ -260,9 +260,12 @@ position: fixed;
 	font-family: proxima-nova, sans-serif;
 	font-size: 0pt;
 	transition: .7s;
-margin-left: 10%;
-margin-right: 10%;
+margin-left: 25%;
+margin-right: 25%;
+line-height: 26.5pt;
 margin-top: 3%;
+text-align: left;
+
 
 
 
@@ -272,9 +275,12 @@ margin-top: 3%;
 	font-family: proxima-nova, sans-serif;
 	font-size: 0pt;
 transition: .7s;
-margin-left: 10%;
-margin-right: 10%;
+margin-left: 25%;
+margin-right: 25%;
+line-height: 26.5pt;
 margin-top: 3%;
+text-align: left;
+
 
 }
 
@@ -283,15 +289,25 @@ margin-top: 3%;
 	font-family: proxima-nova, sans-serif;
 	font-size: 0pt;
 transition: .7s;
-margin-left: 10%;
-margin-right: 10%;
+margin-left: 25%;
+margin-right: 25%;
+line-height: 26.5pt;
 margin-top: 3%;
+text-align: left;
+
 
 }
 
+#artists{
+	background-color: black;
+	z-index: 4;
+	border-bottom: none;
+}
 .bodytextshow{
-	font-size: 24pt;
+	font-size: 18pt;
 transition: .7s;
+color: black;
+
 }
 
 .titletext{
@@ -306,7 +322,7 @@ transition: .7s;
 
 .expand{
 
-	height: 100%;
+	height: 70%;
 	transition: 0.7s;
 	
 }
@@ -413,7 +429,7 @@ transition: .7s;
 	display: flex;
 	flex-direction: row;
 	z-index: 2;
-
+	border-top:1pt solid white;
 
 }
 

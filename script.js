@@ -5,12 +5,12 @@ $(window).load(function () {
         setTimeout(function(){
             $('.loader-wrapper').fadeOut('slow', function () {
             });
-        },3000); // set the time here
+        },2500); // set the time here
 });
    $(function(){
    setTimeout(function(){
      $('.content').fadeIn('slow');
-   },3000);
+   },2500);
 
 
 
@@ -56,8 +56,8 @@ $("#method").addClass("fontsizedecrease");
 $("#artists").addClass("fontsizedecrease");
 
 
-$("#titletextmethod").css("margin-top","1.2%");
-$("#titletextartists").css("margin-top","1.2%");
+$("#titletextmethod").css("margin-top","1.8%");
+$("#titletextartists").css("margin-top","1.8%");
 
 
 
@@ -74,8 +74,8 @@ $("#method").removeClass("fontsizedecrease");
 $("#about").addClass("fontsizedecrease");
 $("#artists").addClass("fontsizedecrease");
 
-$("#titletextabout").css("margin-top","1.2%");
-$("#titletextartists").css("margin-top","1.2%");
+$("#titletextabout").css("margin-top","1.8%");
+$("#titletextartists").css("margin-top","1.8%");
    $("#method").addClass("expand");
 
 });
@@ -91,8 +91,8 @@ $("#artists").removeClass("fontsizedecrease");
 $("#method").addClass("fontsizedecrease");
 $("#about").addClass("fontsizedecrease");
 
-$("#titletextmethod").css("margin-top","1.2%");
-$("#titletextabout").css("margin-top","1.2%");
+$("#titletextmethod").css("margin-top","1.8%");
+$("#titletextabout").css("margin-top","1.8%");
 
    $("#artists").addClass("expand");
 });
@@ -228,22 +228,47 @@ $('#catsocont').mouseleave( function () {
 
 });
 
-$('#catsocont').click( function () {
 
-   window.location.href = "catso.html";
+function OpenInNewTab(url )
+{
+  var win=window.open(url, '_blank');
+  win.focus();
+}
+
+$('#catsocont').click( function () {
+     OpenInNewTab("catso.html");
+     return false;
+
 
 });
+
 
 $('#danaecont').click( function () {
+     OpenInNewTab("danae.html");
+     return false;
 
-   window.location.href = "danae.html";
 
 });
+
+
 $('#circle').click( function () {
+     OpenInNewTab("untitled.html");
+     return false;
 
-   window.location.href = "untitled.html";
 
 });
+
+
+// $('#danaecont').click( function () {
+
+//    window.location.href = "danae.html";
+
+// });
+// $('#circle').click( function () {
+
+//    window.location.href = "untitled.html";
+
+// });
    // var scroll_start = 0;
    // var startchange = $('#infosection');
    // var offset = startchange.offset();
