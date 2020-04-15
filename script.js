@@ -5,12 +5,12 @@ $(window).load(function () {
         setTimeout(function(){
             $('.loader-wrapper').fadeOut('slow', function () {
             });
-        },2500); // set the time here
+        },300); // set the time here
 });
    $(function(){
    setTimeout(function(){
      $('.content').fadeIn('slow');
-   },2500);
+   },300);
 
 
 
@@ -25,21 +25,21 @@ $(document).ready(function() {
 
     // javascript goes here
 
-$('#about').mouseenter( function () {
+// $('#about').mouseenter( function () {
 
-   $("#about").css("background-color","#DBDBDB");
-   $("#about").css("color","black");
-   $(".bodytextabout").css("color","black");
+//    $("#about").css("background-color","#DBDBDB");
+//    $("#about").css("color","black");
+//    $(".bodytextabout").css("color","black");
 
-});
+// });
 
 
-$('#about').mouseleave( function () {
- $("#about").css("color","#DBDBDB");
-   $("#about").css("background-color","black");
-     $(".bodytextabout").css("color","#DBDBDB");
+// $('#about').mouseleave( function () {
+//  $("#about").css("color","#DBDBDB");
+//    $("#about").css("background-color","black");
+//      $(".bodytextabout").css("color","#DBDBDB");
 
-});
+// });
 
 
 $('#about').click( function () {
@@ -98,44 +98,44 @@ $("#titletextabout").css("margin-top","1.8%");
 });
 
 
-$('#method').mouseenter( function () {
+// $('#method').mouseenter( function () {
 
-   $("#method").css("background-color","#DBDBDB");
-   $("#method").css("color","black");
- $(".bodytextmethod").css("color","black");
-
-   
-});
-
-
-$('#method').mouseleave( function () {
-
-   $("#method").css("background-color","black");
-   $("#method").css("color","#DBDBDB");
- $(".bodytextmethod").css("color","#DBDBDB");
+//    $("#method").css("background-color","#DBDBDB");
+//    $("#method").css("color","black");
+//  $(".bodytextmethod").css("color","black");
 
    
-});
+// });
 
 
-$('#artists').mouseenter( function () {
+// $('#method').mouseleave( function () {
 
-   $("#artists").css("background-color","#DBDBDB");
-   $("#artists").css("color","black");
-    $(".bodytextartists").css("color","black");
+//    $("#method").css("background-color","black");
+//    $("#method").css("color","#DBDBDB");
+//  $(".bodytextmethod").css("color","#DBDBDB");
 
-});
+   
+// });
+
+
+// $('#artists').mouseenter( function () {
+
+//    $("#artists").css("background-color","#DBDBDB");
+//    $("#artists").css("color","black");
+//     $(".bodytextartists").css("color","black");
+
+// });
 
 
 
 
-$('#artists').mouseleave( function () {
+// $('#artists').mouseleave( function () {
 
-   $("#artists").css("background-color","black");
-   $("#artists").css("color","#DBDBDB");
-    $(".bodytextartists").css("color","#DBDBDB");
+//    $("#artists").css("background-color","black");
+//    $("#artists").css("color","#DBDBDB");
+//     $(".bodytextartists").css("color","#DBDBDB");
 
-});
+// });
 
 
 
@@ -210,6 +210,14 @@ $('#circle').mouseleave( function () {
 
 });
 
+$('#circle').click(function (){
+  $('.popup').toggleClass("visibility");
+
+
+
+});
+
+
 
 $('#catsocont').mouseover( function () {
 
@@ -236,34 +244,20 @@ function OpenInNewTab(url )
 }
 
 $('#catsocont').click( function () {
-     OpenInNewTab("catso.html");
-     return false;
-
+     
+   window.location.href = "catso.html";
 
 });
+
+
+
 
 
 $('#danaecont').click( function () {
-     OpenInNewTab("danae.html");
-     return false;
 
-
-});
-
-
-$('#circle').click( function () {
-     OpenInNewTab("untitled.html");
-     return false;
-
+   window.location.href = "danae.html";
 
 });
-
-
-// $('#danaecont').click( function () {
-
-//    window.location.href = "danae.html";
-
-// });
 // $('#circle').click( function () {
 
 //    window.location.href = "untitled.html";

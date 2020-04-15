@@ -81,7 +81,7 @@ svg{
 
 #nav{
   width:0px;
-  margin-left: 1.5%;
+  margin-left: .5%;
   height: 100vh;
   background: black;
   display: flex;
@@ -89,9 +89,9 @@ svg{
 font-family: proxima-nova-condensed, sans-serif;
 font-weight: 400;
 font-style: normal;
-transform: rotate(-90deg);
-  justify-content: center;
-  align-items: center;
+/*transform: rotate(-90deg);*/
+ /* justify-content: center;*/
+/*  align-items: center;*/
   position: fixed;
   z-index: 5;
 
@@ -206,9 +206,9 @@ font-family: proxima-nova-condensed, sans-serif;
 font-weight: 300;
 font-style: normal;
 transform: rotate(-90deg);
-width:8%;
+width:5%;
 /*margin-left: 80%;*/
-margin-top: 23%;
+margin-top: 20%;
 border-bottom: 1pt solid white;
 position: fixed;
 
@@ -245,7 +245,7 @@ position: fixed;
 	height: calc(100%/3);
 	border-bottom: 1px solid white;
 	/*color: #DBDBDB;*/
-	font-size: 100pt;
+	font-size: 20pt;
 	font-family: georgia, serif;
 	    text-align: center;
 
@@ -284,6 +284,9 @@ text-align: left;
 
 }
 
+#method{
+	background-color: black;
+}
 
 .bodytextartists{
 	font-family: proxima-nova, sans-serif;
@@ -304,17 +307,18 @@ text-align: left;
 	border-bottom: none;
 }
 .bodytextshow{
-	font-size: 18pt;
+	font-size: 14pt;
 transition: .7s;
-color: black;
+color: #DBDBDB;
 
 }
 
 .titletext{
-	margin-top: 5%;
+	margin-top:9%;
 }
 
 #about{
+	background-color: black;
 	
 	border-top: 1px solid white;
 
@@ -328,7 +332,7 @@ color: black;
 }
 
 .fontsizedecrease{
-	font-size: 50pt;
+	font-size: 20pt;
 transition: .7s;
 	height: 15%;
 
@@ -419,13 +423,11 @@ transition: .7s;
 	color: black;
 }
 
-
-
-
 #begincontainer{
+	background-color: black;
 	height: 100%;
-	width: 96%;
-	margin-left: 4%;
+	width: 100%;
+/*	margin-left: 4%;*/
 	display: flex;
 	flex-direction: row;
 	z-index: 2;
@@ -442,25 +444,36 @@ transition: .7s;
   z-index: 2;
 }
 
+.fullwidth{
+	width: 100%;
+	height: 100%;
+	transition: 1s;
+}
+
+.nowidth{
+	width: 0%;
+	transition: 1s;
+}
+
 #untitled{
-	width: 370px;
-	height: 370px;
+	width: 110%;
+	height: 50%;
 	border-radius: 50%;
 	background-color: #DBDBDB;
-	z-index: 2;
-	margin-top: 70%;
-	margin-left: 3.5%;
+/*	z-index: 2;*/
+	margin-top: 61%;
+	margin-left: -20%;
 	transition: .5s;
 }
 
 .untitled{
   background-color:#DBDBDB;
-  box-shadow: 0px 0px 20px 20px #DBDBDB;
+  box-shadow: 0px 0px 40px 40px #DBDBDB;
   transition: .5s;
 }
 
 #mile{
-	width: 70px;
+	width: 50px;
 	height: 100%;
 	background-color: #DBDBDB;
 	  transition: .5s;
@@ -468,7 +481,7 @@ transition: .7s;
 
 .mile2{
   background-color:#A7D8E8;
-  box-shadow: 0px 0px 20px 20px #A7D8E8 ;
+  box-shadow: 0px 0px 40px 40px #A7D8E8 ;
   transition: .5s;
 }
 
@@ -482,15 +495,15 @@ z-index: 4;
 
 #milecontainer{
 	background-color: black;
-	z-index: 4;
+	z-index: 5;
 	height: 100%;
 }
 #danae{
 
 
-height: 40%;
+height: 45%;
 margin-top: 66%;
-margin-left: 22%;
+
 
 background-color: #DBDBDB;
 transition: .5s;
@@ -499,13 +512,14 @@ transition: .5s;
 
 .danae{
   background-color:#4182f2;
-  box-shadow: 0px 0px 23px 23px #4182f2 ;
+  box-shadow: 0px 0px 40px 40px #4182f2 ;
   transition: .5s;
 }
 
 
 #catso{
-  height: 450px;
+  height: 480px;
+
 
   shape-outside: polygon();
   clip-path: polygon(66% 0, 100% 20%, 100% 80%, 66% 100%, 0 80%, 0 20%);
@@ -528,13 +542,28 @@ transition: .5s;
 
 
 
-;
+
   z-index: 3;
 
   transition: .5s;
 }
 
 
+
+
+/*.popup{
+	visibility: none;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	height: 80%;
+	background-color: black;
+}
+
+.visibiliy{
+	visibility: visible !important;
+
+}*/
 
 a{
 	text-decoration: none;
