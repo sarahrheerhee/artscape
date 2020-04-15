@@ -245,9 +245,10 @@ position: fixed;
 	height: calc(100%/3);
 	border-bottom: 1px solid white;
 	/*color: #DBDBDB;*/
-	font-size: 20pt;
+	font-size: 16pt;
 	font-family: georgia, serif;
 	    text-align: center;
+	    letter-spacing: 4pt;
 
 
 
@@ -265,7 +266,7 @@ margin-right: 25%;
 line-height: 26.5pt;
 margin-top: 3%;
 text-align: left;
-
+letter-spacing: 0pt;
 
 
 
@@ -280,7 +281,7 @@ margin-right: 25%;
 line-height: 26.5pt;
 margin-top: 3%;
 text-align: left;
-
+letter-spacing: 0pt;
 
 }
 
@@ -297,14 +298,14 @@ margin-right: 25%;
 line-height: 26.5pt;
 margin-top: 3%;
 text-align: left;
-
+letter-spacing: 0pt;
 
 }
 
 #artists{
 	background-color: black;
-	z-index: 4;
 	border-bottom: none;
+	z-index: 7 !important;
 }
 .bodytextshow{
 	font-size: 14pt;
@@ -332,7 +333,7 @@ color: #DBDBDB;
 }
 
 .fontsizedecrease{
-	font-size: 20pt;
+	font-size: 16pt;
 transition: .7s;
 	height: 15%;
 
@@ -456,12 +457,12 @@ transition: .7s;
 }
 
 #untitled{
-	width: 110%;
-	height: 50%;
+	width: 100%;
+	height: 45%;
 	border-radius: 50%;
 	background-color: #DBDBDB;
 /*	z-index: 2;*/
-	margin-top: 61%;
+	margin-top: 62%;
 	margin-left: -20%;
 	transition: .5s;
 }

@@ -56,8 +56,8 @@ $("#method").addClass("fontsizedecrease");
 $("#artists").addClass("fontsizedecrease");
 
 
-$("#titletextmethod").css("margin-top","1.8%");
-$("#titletextartists").css("margin-top","1.8%");
+$("#titletextmethod").css("margin-top","3%");
+$("#titletextartists").css("margin-top","3%");
 
 
 
@@ -74,8 +74,8 @@ $("#method").removeClass("fontsizedecrease");
 $("#about").addClass("fontsizedecrease");
 $("#artists").addClass("fontsizedecrease");
 
-$("#titletextabout").css("margin-top","1.8%");
-$("#titletextartists").css("margin-top","1.8%");
+$("#titletextabout").css("margin-top","3%");
+$("#titletextartists").css("margin-top","3%");
    $("#method").addClass("expand");
 
 });
@@ -91,8 +91,8 @@ $("#artists").removeClass("fontsizedecrease");
 $("#method").addClass("fontsizedecrease");
 $("#about").addClass("fontsizedecrease");
 
-$("#titletextmethod").css("margin-top","1.8%");
-$("#titletextabout").css("margin-top","1.8%");
+$("#titletextmethod").css("margin-top","3%");
+$("#titletextabout").css("margin-top","3%");
 
    $("#artists").addClass("expand");
 });
